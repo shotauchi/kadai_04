@@ -10,6 +10,7 @@ $array_month=["1月","2月","3月","4月","5月","6月","7月","8月","9月","10
 echo $array_month[7];
 echo "\n";
 
+// ！！！要復習！！！
 // 3) $hello　という変数に　”Hello, “を $name という変数にあなたの名前を、　
 //    $world という変数に　”‘s World!” を代入して、各変数を連結させて “Hello, あなたの名前’s World!” と表示してみましょう
 //echo 'hello php!';
@@ -24,6 +25,7 @@ echo $hello.$name.$world;
 echo "\n";
 
 
+// ！！！要復習！！！
 // 4. $tech_boostに “tech “という文字列が代入されています。
 //    複合演算を使って、echo $tech_boostと実行すると「tech boost」と表示されるように実装してみましょう
 // $tech_boost;
