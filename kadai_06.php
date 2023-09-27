@@ -37,9 +37,9 @@ echo max_array(array(0));
 
 
 //strip_tags
-  $str = "<h1> apple </h1>"
-  . "<p> orange </p>";
-echo strip_tags($str) ."¥n";
+$str = "<h1>apple</h1>"
+  . "<p>orange</p>";
+echo strip_tags($str) ."\n";
 
 
 //array_push
@@ -56,7 +56,9 @@ print_r($result);
 
 
 //time
-echo 'Now: '. time();
+echo '現在のUnixタイムスタンプ：'.time();
+
+echo '<br>';
 
 
 //mktime
@@ -66,5 +68,9 @@ echo date("M-d-Y", mktime(0, 0, 0, 1, 1, 2023));
 echo date("M-d-Y", mktime(0, 0, 0, 1, 1, 23));
 
 //date
-$now = time();
-print $now;
+print(date('Y m d').'<br>');
+print(date('Y年m月d日').'<br>');
+print(date('d day').'<br>');
+print(date('d \d\a\y').'<br>');
+print(date('c').'<br>');
+
