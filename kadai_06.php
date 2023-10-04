@@ -60,7 +60,6 @@ echo '現在のUnixタイムスタンプ：'.time();
 
 echo '<br>';
 
-
 //mktime
 echo date("M-d-Y", mktime(0, 0, 0, 12, 30, 2022));
 echo date("M-d-Y", mktime(0, 0, 0, 12, 31, 2022));
