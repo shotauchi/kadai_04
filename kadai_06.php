@@ -1,14 +1,16 @@
 <?php
-// 1〜10 までを足した値を返す関数
-function times($num){
+
+function sum($num){
 return $num * 2;
 }  
+echo sum(2);
+echo "\n";
 
-
-function sumab($a,$b){
-    return $a + $b;
+function add($a, $b){
+return ($a + $b);
 }
-
+echo sum($a+$b);
+echo "\n";
 
 function product($arr){
     $result = $arr[0]; 
@@ -18,7 +20,7 @@ function product($arr){
     return $result;
 }
 echo product(array(1, 3, 5 ,7, 9));
-
+echo "\n";
 
 function max_array($arr){
   
@@ -33,8 +35,8 @@ function max_array($arr){
   return $max_number;
 } 
 
-echo max_array(array(0));
-
+echo max_array(array(5));
+echo "\n";
 
 //strip_tags
 $str = "<h1>apple</h1>"
