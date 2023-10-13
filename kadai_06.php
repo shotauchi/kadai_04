@@ -1,15 +1,18 @@
 <?php
 
 function sum($num){
-return $num * 2;
+    return $num * 2;
 }  
 echo sum(2);
 echo "\n";
 
-function add($a, $b){
-return ($a + $b);
+// 関数名 add と言う関数をつくる
+// $a と $b を仮引数に持ち
+function plus($a, $b){
+    // $a と $b　を足した結果を返す関数を作成してください
+    return ($a + $b);
 }
-echo sum($a+$b);
+echo plus(7, 10);
 echo "\n";
 
 function product($arr){
